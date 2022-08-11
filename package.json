@@ -1,0 +1,29 @@
+{
+  "name": "node-js-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "dev": "nodemon -r esm server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node -r esm server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "latest",
+    "esm": "latest",
+    "express": "latest",
+    "joi": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "mongoose-paginate-v2": "^1.6.3",
+    "multer": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
